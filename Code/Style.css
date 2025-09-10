@@ -1,0 +1,90 @@
+body{
+    position: absolute;
+    background-color: black;
+    height: 750px;
+    width:1000px;
+    z-index: 0;
+}
+.Road{
+    position: absolute;
+    background-color: white;
+    background-image: url("../Image/Road.png");
+    background-size: 1000px 750px;
+    height: 750px;
+    width:1000px;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+.Pizza{
+    position: absolute;
+    background-image: url("../Image/Pizza.png");
+    background-size: 80px 80px;
+    height: 80px;
+    width: 80px;
+    z-index: 10;
+}
+.HPFont{
+    position: absolute;
+    height: 20px;
+    width: 100px;
+    font-size: 20px;
+    color: black;
+    z-index: 15;
+    font-weight: 900;
+}
+.Shell{
+    position: absolute;
+    height: 750px;
+    width:1000px;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+}
+.Object{
+    position: absolute;
+    z-index: 10;
+}
+
+.Can{
+    background-image: url("../Image/Can.png");
+    background-size: 80px 80px;
+    height: 80px;
+    width: 80px;
+}
+.Bat{
+    background-image: url("../Image/Bat.png");
+    background-size: 80px 80px;
+    height: 80px;
+    width: 80px;
+}
+.Gas{
+    background-image: url("../Image/Gas.png");
+    background-size: 80px 80px;
+    height: 80px;
+    width: 80px;
+}
+.Key{
+    background-image: url("../Image/Key.png");
+    background-size: 80px 80px;
+    height: 80px;
+    width: 80px;
+}
+.Water{
+    background-image: url("../Image/Water.png");
+    background-size: 80px 80px;
+    height: 80px;
+    width: 80px;
+}
+.Oil{
+    background-image: url("../Image/Oil.png");
+    background-size: 100px 100px;
+    height: 100px;
+    width: 100px;
+}
+.Car{
+    background-image: url("../Image/Car.png");
+    background-size: 250px 250px;
+    height: 250px;
+    width: 250px;
+}
